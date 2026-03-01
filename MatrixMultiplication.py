@@ -55,5 +55,3 @@ for i in range(row1):
 
 for row in C:
     print(row)
-
-hello
