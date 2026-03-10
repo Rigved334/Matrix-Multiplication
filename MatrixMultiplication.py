@@ -29,7 +29,7 @@ A = []
 for i in range(row1):
     row = []
     for j in range(column1):
-        a = float(input("enter the elements row-wise: "))
+        a = float(input(f"enter the element on row {i + 1} and column {j + 1}: "))
         row.append(a)
     A.append(row)
 
@@ -38,7 +38,7 @@ B = []
 for i in range(row2):
     row = []
     for j in range(column2):
-        b = float(input("enter the elements row-wise: "))
+        b = float(input("enter the element on row {i + 1} and column {j + 1}: "))
         row.append(b)
     B.append(row)
 
